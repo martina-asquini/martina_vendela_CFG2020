@@ -1,0 +1,201 @@
+body,html{
+    font-family: 'IBM Plex Sans', sans-serif; 
+    height: 100%;   
+}
+
+
+.image0{
+    height: 350px;  
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 95px;
+    margin-right: 100px;
+    object-fit: fill;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid grey;
+    border-top: 3px solid grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;
+}
+
+
+nav ul li{ 
+    display: flex;
+    margin: 0 35px;
+    align-self: baseline;
+    }
+
+.nav1 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav1:hover{
+    color:pink;
+}
+
+.nav2 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav2:hover{
+    color: blue;
+}
+
+.nav3 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav3:hover{
+    color: green;
+}
+
+.nav4 {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav4:hover{
+    color: purple;
+}
+
+.featurette-divider {
+    margin: 3rem 0;
+    margin-right: 100px; 
+    margin-left: 100px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.col-md-7 {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.col-md-5 {
+    flex: 0 0 40%;
+    max-width: 40%;
+    align-self: flex-end;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: lightsteelblue;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.fa {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+button {
+    background-color: white;
+    color: black; 
+    font-weight: bold;
+    opacity: 0.6;
+    padding: 15px 30px;
+    border-radius: 12px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.Cafes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.cafe1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cafe2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cafe3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cafetext {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
